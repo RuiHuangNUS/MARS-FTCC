@@ -27,7 +27,9 @@ MARS is tasked to track a spiral trajectory with two faulty units. The faulty pr
 4. [Contact Us](#Contact-Us) -->
 
 ## 1 Why Fault-tolerance?
-Gif: docking test
+
+During docking or separation, there may be potential issues that could lead to flight failure. In such cases, the combined units will...
+Gif: failed docking test
 
   (a)  Before Fault-tolerance    |   (b) After Fault-tolerance (Ours)  |  After Fault-tolerance (Ours)
 :---------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:
