@@ -32,7 +32,7 @@ During docking or separation, there may be potential issues that could lead to f
 
 Gif: failed docking test
 
-  (a)  Before Fault-tolerance    |   (b) After Fault-tolerance (Ours)  |  After Cooperative Fault Tolerance (Ours)
+  (a)  Before Fault-tolerance    |   (b) After Fault-tolerance (Ours)  |  (c) After Cooperative Fault Tolerance (Ours)
 :---------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:
 ![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x2_fault_track.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x2_self_reconfiguration_track.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x2_self_reconfiguration_track.gif) 
 
