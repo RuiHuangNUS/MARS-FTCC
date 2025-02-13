@@ -26,7 +26,7 @@ MARS is tasked to track a spiral trajectory with two faulty units. The faulty pr
       2. [B: Distributed Learning of Adaptive References](#B-Distributed-Learning-of-Adaptive-References)
 4. [Contact Us](#Contact-Us) -->
 
-## 1 Why Cooperative Fault Tolerance?
+## 1 Why Fault-Tolerant Cooperative Control?
 
 During docking or separation, there may be potential issues that could lead to flight failure. In such cases, the combined units will...
 
@@ -40,7 +40,7 @@ Advantages:
 1. More control authority – Improved robustness against unit faulty
 2. Improved trajectory tracking performance
 
-## 2 How to Cooperative Fault Tolerance?
+## 2 How to Fault-Tolerant Cooperative Control?
 ### 2.1 Fault Tolerance (propeller)
 
 We Calculate the optimal configuration with maximum remaining control authority using controllability margin (CM)
