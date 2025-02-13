@@ -30,8 +30,8 @@ MARS is tasked to track a spiral trajectory with two faulty units. The faulty pr
 Gif: docking test
 
   (a)  Before Fault-tolerance    |   (b) After Fault-tolerance (Ours)  |  After Fault-tolerance (Ours)
-:---------------------------------------------------------------:|:--------------------------------------------------------------:
-![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x2_fault_track.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x2_self_reconfiguration_track.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x2_self_reconfiguration_track.gif)
+:---------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:
+![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x2_fault_track.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x2_self_reconfiguration_track.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x2_self_reconfiguration_track.gif) 
 
 Advantages:
 1. More control authority – Improved robustness against unit faulty
