@@ -41,7 +41,7 @@ Advantages:
 2. Improved trajectory tracking performance
 
 ## 2 How to Cooperative Fault Tolerance?
-### 2.1 Quantifying the optimal configuration
+### 2.1 Fault Tolerance (propeller)
 
 We Calculate the optimal configuration with maximum remaining control authority using controllability margin (CM)
   (a) Calculate the Optimal Reconfiguration in a 3×2 assembly     |   (b) Calculate the Optimal Reconfiguration in a 3×3 assembly 
@@ -52,7 +52,7 @@ Advantages:
 1. No need for optimization with an objective function (Less time consumption)
 2. The optimal configuration ensures controllability and is theoretically guaranteed
 
-### 2.2 Ensures the safe transfer of all units
+### 2.2 Fault Tolerance (unit)
 We designed the Minimum Controllable Subassembly to enable the transfer of faulty units.
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/self_reconfiguration_flow.png?raw=true" alt="diagram" width="400"/>
@@ -61,7 +61,9 @@ We designed the Minimum Controllable Subassembly to enable the transfer of fault
 Advantages:
 The minimum controllable subassembly ensures the safety of faulty units
 
-### 2.3 Examples
+### 2.3 Fault Tolerance Cooperative control (Path planning)
+
+### 2.4 Examples
 
  (a) 3×2 assembly: full disassembly  |   (b) 3×2 assembly: partial disassembly 
 :---------------------------------------------------------------:|:--------------------------------------------------------------:
