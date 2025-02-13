@@ -125,7 +125,7 @@ If you encounter a bug in your implementation of the code, please do not hesitat
 * Email: ruihuang@nus.edu.sg
 
 ## References
-<a id="1">[1]</a> Rui Huang, Siyu Tang, Zhiqian Cai, and L. Zhao, “Robust Self-Reconfiguration for Fault-Tolerant Control of Modular Aerial Robot Systems,” IEEE International Conference on Robotics & Automation (ICRA), 2025.
+<a id="1">[1]</a> Rui Huang, Siyu Tang, Zhiqian Cai, and Lin Zhao, “Robust Self-Reconfiguration for Fault-Tolerant Control of Modular Aerial Robot Systems,” IEEE International Conference on Robotics & Automation (ICRA), 2025.
 
 <a id="21">[2]</a> R. HUANG, H. SHENG, C. Qian, R. Ziting, X. Zhen, L. Jiacheng, and L. Tong, “Adaptive configuration control of combined uavs based on leader-wingman mode,” Chinese Journal of Aeronautics, 2024.
 
