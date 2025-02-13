@@ -89,7 +89,7 @@ Advantages:
 4. Reducing the number of steps by 81.81% and 45.45%, respectively.
 5. Less oscillation in the reassembled drone after docking and separation.
 
-## 4 Trajectory tracking
+## 4 Self-reconfiguration
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x2_full_track.gif?raw=true" alt="diagram" width="500"/>
 </div>
