@@ -48,9 +48,9 @@ y_i = np.array([0.22, -0.22, -0.22, 0.22])
 #03
 # objective -103 ~ -106.75746135776906
 # Optimal theta_z (degrees): 20.698425901051184
-initial_theta_z = 15
-x_position_list = np.array([w, w, 0])
-y_position_list = np.array([0, w, 0])
+# initial_theta_z = 15
+# x_position_list = np.array([w, w, 0])
+# y_position_list = np.array([0, w, 0])
 
 # demo 3
 # 01-02
@@ -118,6 +118,15 @@ y_position_list = np.array([0, w, 0])
 # initial_theta_z = 0
 # x_position_list = np.array([w, w, w, 0, 0,0])
 # y_position_list = np.array([-w, 0, w,-w, 0, w])
+
+#demo 9
+#01-02-03
+#04    05
+# -297.6
+initial_theta_z = 0
+x_position_list = np.array([w, w, w, 0 ,0])
+y_position_list = np.array([-w, 0, w,-w, w])
+
 
 #demo 10
 #01-02-03-04
