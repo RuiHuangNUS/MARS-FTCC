@@ -115,9 +115,9 @@ y_i = np.array([0.22, -0.22, -0.22, 0.22])
 #01-02-03
 #04-05-06
 # -297.6
-# initial_theta_z = 0
-# x_position_list = np.array([w, w, w, 0, 0,0])
-# y_position_list = np.array([-w, 0, w,-w, 0, w])
+initial_theta_z = 0
+x_position_list = np.array([w, w, w, 0, 0,0])
+y_position_list = np.array([-w, 0, w,-w, 0, w])
 
 #demo 9
 #01-02-03
