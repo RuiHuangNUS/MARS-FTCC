@@ -270,7 +270,9 @@ public:
                 gradC.block<6, 3>(segment * 6, 0) +=  obj.weightPR * gradViolaPc;
                 gradT(segment) += obj.weightPR * (cost_tmp_p  * gradViolaPt);
                 // Zhang added
-                double cost_altitude = costaltitude2(quat);
+                // double cost_altitude = costaltitude2(quat);
+
+                
                 cost += obj.weightPR * cost_tmp_p + obj.weightAR * cost_tmp_a ;
               }
         }
@@ -398,7 +400,7 @@ public:
     double yaw_diff = yaw_current - yaw_ref;
     double yaw_cost = 10000 * yaw_diff * yaw_diff;
     cost += yaw_cost;
-    std::cout << "yaw_cost: " << yaw_cost << std::endl;
+    // std::cout << "yaw_cost: " << yaw_cost << std::endl;
     return cost;
 
     }
@@ -416,7 +418,7 @@ public:
     double yaw_diff = yaw_current - yaw_ref;
     double yaw_cost = 10000 * yaw_diff * yaw_diff;
     double cost = yaw_cost;
-    std::cout << "yaw_cost: " << yaw_cost << std::endl;
+    // std::cout << "yaw_cost: " << yaw_cost << std::endl;
     return cost;
 
     }
@@ -641,7 +643,7 @@ public:
     {
         OriTraj &obj = *(OriTraj *)instance;
         obj.iter++;
-        std::cout << "[mid] iter = " << obj.iter << std::endl;
+        // std::cout << "[mid] iter = " << obj.iter << std::endl;
         if (obj.conf.enableearlyExit)
         {
             obj.drawDebugTraj();

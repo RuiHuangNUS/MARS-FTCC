@@ -49,7 +49,7 @@ class PlannerManager
     bool generatePath( Vector3d start, Vector3d end );
 
 
-    void generateTraj( vector<Vector3d> path );
+    void generateTraj( vector<Vector3d> patsh );
 
 
 

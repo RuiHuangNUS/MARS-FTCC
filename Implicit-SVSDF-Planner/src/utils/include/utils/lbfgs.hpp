@@ -772,10 +772,10 @@ namespace lbfgs
                     g=g_recover;//重新利用一阶信息
                     d.normalize();
                     d*=olddnorm;//重新求取方向  
-                    std::cout<<"\033[35m there "<<"\033[0m"<<std::endl;
+                    // std::cout<<"\033[35m there "<<"\033[0m"<<std::endl;
                     end = (end + 1) % m;//end取0,1,2....m-1//防止 lm_alpha(j) = lm_s.col(j).dot(d) / lm_ys(j);除0操作
                 }
-                std::cout<<"\033[36m with norm:"<<d.norm()<<"\033[0m"<<std::endl;
+                // std::cout<<"\033[36m with norm:"<<d.norm()<<"\033[0m"<<std::endl;
                 olddnorm=d.norm();//打补丁
                 /* The search direction d is ready. We try step = 1 first. */
                 step = 1.0;

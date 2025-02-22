@@ -1089,7 +1089,7 @@ public:
     {
         TrajOptimizer &obj = *(TrajOptimizer *)instance;
         obj.iter++;
-        std::cout << "iter = " << obj.iter << std::endl;
+        // std::cout << "iter = " << obj.iter << std::endl;
         if (obj.conf.enableearlyExit)
         {
             obj.drawDebug();
@@ -1098,7 +1098,7 @@ public:
             costs.push_back(obj.cost_other);
             debug_publisher::DBSendLogCost(costs);
             AsyncSleepMS(obj.conf.debugpause);
-            std::cout<<"[total cost] = "<<obj.cost_total <<" , [other cost] = " <<obj.cost_other <<std::endl;
+            // std::cout<<"[total cost] = "<<obj.cost_total <<" , [other cost] = " <<obj.cost_other <<std::endl;
 
         }
 
@@ -1121,12 +1121,12 @@ public:
     {
         TrajOptimizer &obj = *(TrajOptimizer *)instance;
         obj.iter++;
-        std::cout << "iter = " << obj.iter << " step = " << step << std::endl;
+        // std::cout << "iter = " << obj.iter << " step = " << step << std::endl;
         if (obj.conf.enableearlyExit)
         {
             obj.drawDebug();
             AsyncSleepMS(obj.conf.debugpause);
-            std::cout << "[total cost] = " << obj.cost_total << " , [other cost] = " << obj.cost_other << std::endl;
+            // std::cout << "[total cost] = " << obj.cost_total << " , [other cost] = " << obj.cost_other << std::endl;
 
         }
         if (obj.exit)

@@ -1182,12 +1182,45 @@ namespace vis
             Eigen::Vector3d pos;
             Eigen::Matrix3d rotate;
             Eigen::Matrix3Xd debugmesh_var;
+
+            double delta_y = 0.0;
+            double delta_x = 0.0;
+            double grad = 0.0;
+
             bool keep = true;
             visPolytope(debugmesh_var, topic, "SE3edge", keep, 0.1,311,  steelblue, a, true);
             for (int i = 0; i < se3_path.size(); i++)    
             {
                 pos    = se3_path[i].position;
                 rotate = se3_path[i].getRotMatrix();
+                
+                // zhang added
+                // std::cout<<"[Livz] pos: "<<pos<<std::endl;
+                if (i > 0)
+                {
+                    delta_y = se3_path[i].position[1] - se3_path[i-1].position[1];
+                    delta_x = se3_path[i].position[0] - se3_path[i-1].position[0];
+                    grad = delta_y / delta_x;
+                    if( delta_x != 0)
+                    {
+                        double yaw = atan2(delta_y, delta_x) * 57.63;
+                        std::cout<<"[Livz] yaw: "<<yaw<<std::endl;
+                    }
+                    else if(delta_x == 0){
+
+                        double yaw = 0;
+                        std::cout<<"[Livz] yaw: 0"<<std::endl;
+                    }
+                
+                    // std::cout<<"[Livz] delta_y: "<<delta_y<<std::endl;
+                    // std::cout<<"[Livz] delta_x: "<<delta_x<<std::endl;
+                    // std::cout<<"[Livz] grad: "<<grad<<std::endl;
+                }
+                
+                
+
+
+
                 debugmesh_var = (rotate * mesh).colwise() + pos;
                 if (i == se3_path.size() - 1){ keep = false;}
                 visPolytope(debugmesh_var, topic, "SE3edge", keep,0.1, 10+i,  steelblue, a, false);

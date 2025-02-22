@@ -114,6 +114,8 @@ bool PlannerManager::generatePath(Vector3d start, Vector3d end)
     }
 
     recent_se3_path = astar_searcher->getastarSE3Path();
+    
+    // visulize the shape in the path
     visulizer->visSE3Path("SE3path", sv_manager->current_robot_shape->mesh, recent_se3_path);
     ROS_WARN("[A*] search success.");
   }
@@ -160,8 +162,8 @@ void PlannerManager::generateTraj(vector<Vector3d> path)
     rotate = recent_se3_path[ind].getRotMatrix();
 
     dir = rotate * Eigen::Vector3d(0, 0, 1);
-    std::cout << dir << std::endl;
-    std::cout << rotate << std::endl;
+    // std::cout << dir << std::endl;
+    // std::cout << rotate << std::endl;
     Q.push_back(wp);
 
     rotatelist.push_back(rotate);

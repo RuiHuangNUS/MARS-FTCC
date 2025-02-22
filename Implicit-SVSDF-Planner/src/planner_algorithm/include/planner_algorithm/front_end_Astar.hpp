@@ -20,6 +20,7 @@ class GridNode
             fScore = 0;
             yaw    = 0;
             id     = 0;
+            gradient = 0;
         }
         GridNode(const Vector3i& ind,const Vector3d& cor){
             coord = cor;
@@ -29,6 +30,7 @@ class GridNode
             fScore = 0;
             yaw    = 0;
             id     = 0;
+            gradient = 0;
         }
         ~GridNode(){}
 
@@ -39,6 +41,7 @@ class GridNode
             fScore = 0;
             yaw    = 0;
             id     = 0;
+            gradient = 0;
         }
     
         Vector3d coord;
@@ -46,6 +49,7 @@ class GridNode
         double gScore;
         double fScore;
         double yaw;
+        double gradient;
         int id;
         GridNode* father;
 };
@@ -201,6 +205,9 @@ inline void AstarPathSearcher::AstarGetSucc(GridNode* currentPtr, vector<GridNod
     bool cond;
     vector<Eigen::Vector2d> aabb_points;
     Eigen::Vector3d state1 = currentPtr -> coord;
+
+    
+
     state1(2) = fy;
     Eigen::Vector3d state2 = Eigen::Vector3d::Zero();
     ros::Time t1,t2,t3;
@@ -219,10 +226,10 @@ inline void AstarPathSearcher::AstarGetSucc(GridNode* currentPtr, vector<GridNod
                 cond = (environment -> occupancy_map) -> isIndexValid(vi) && !(environment -> occupancy_map) -> isIndexOccupiedFlate(vi, 0) ;
              
                 cond = cond && sv_manager -> checkKernelValue(fy, cy, vi) ; 
-
+                
 
                 state2 = (environment -> occupancy_map)->getGridCubeCenter(vi);
-                state2(2) = 0;
+                state2(2) = 0; // Axis Z
                 environment -> getPointsInAABB2D(state2,  kernel_size/2+1, kernel_size/2+1, aabb_points);
                 state2(2) = cy;
                 cond = cond && sv_manager -> checkSubSWCollision(state1, state2, aabb_points);
@@ -233,14 +240,48 @@ inline void AstarPathSearcher::AstarGetSucc(GridNode* currentPtr, vector<GridNod
                 GridNode* p = GridNodeMap[vi(0)][vi(1)][vi(2)];
                 if(p -> id == 0)
                 {
-                    p -> yaw = cy;
+                    p -> yaw = cy; // cy is the yaw of the current SHAPE
+                    std::cout << "cy: " << cy << std::endl;
                 }
-                double yawerror = cy - yawtarget;
+
+                // Zhang added
+                // std::cout << "state1: " << state1 << std::endl;
+                // std::cout << "p: " << p->coord << std::endl;
+
+                // double yawerror = cy - yawtarget;
+                
+                double delta_y = p->coord[1] - state1[1];
+                double delta_x = p->coord[0] - state1[0];
+                
+                double grad;
+
+                if( delta_x != 0)
+                {
+                    grad = atan2(delta_y, delta_x);
+                    // std::cout << "[Livz] grad: " << grad << std::endl;
+                }
+                else if(delta_x == 0){
+                    if (delta_y > 0)
+                        grad = M_PI / 2;
+                    else if (delta_y < 0)
+                        grad = -M_PI / 2;
+                    // std::cout << "[Livz] grad: 0" << std::endl;
+                }
+
+                p -> gradient = grad * 57.63 ;
+                // std::cout << "neighbots grad: " << grad << std::endl;
+
+
+                double yawerror = grad + (M_PI / 2) + yawtarget - cy;
                 double yawpenalty = 10000 * fabs(yawerror);
 
+
+
+
+
                 neighborPtrSets.push_back(p);
-                //Zhang added
-                edgeCostSets.push_back(sqrt(i*i + j*j));
+
+                edgeCostSets.push_back(sqrt(i*i + j*j) + yawpenalty);
             }
         }
     }
@@ -279,7 +320,6 @@ inline void AstarPathSearcher::AstarPathSearch(Vector3d start, Vector3d end)
     GridNode* currentPtr  = NULL;
     GridNode* neighborPtr = NULL;
 
-
     //put start node in open set
     startPtr -> gScore = 0;
     startPtr -> fScore = getHeu(startPtr,endPtr);   
@@ -302,6 +342,11 @@ inline void AstarPathSearcher::AstarPathSearch(Vector3d start, Vector3d end)
 
         auto iter  = std::begin(openSet);
         currentPtr = iter -> second;
+
+
+        std::cout << "currentPtr Gradient: " << currentPtr->gradient << std::endl;
+
+
         openSet.erase(iter);
         currentPtr -> id = -1;
 
