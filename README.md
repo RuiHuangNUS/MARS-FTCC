@@ -1,4 +1,4 @@
-# MARS-FTCC: Fault-Tolerant Cooperative Control for Modular Aerial Robotics Systems
+# MARS-FTCC: Robust Fault-Tolerant Control and Agile Trajectory Planning for Modular Aerial Robotic Systems
 
 ## Project Overview
 The project **MARS-FTCC** consists of two folders, which correspond to the **Algorithm** and **Simulation** in the paper that show the following two advantages of our method.
