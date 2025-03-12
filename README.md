@@ -16,7 +16,7 @@ https://youtu.be/SB0hwK33088
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/Fig1.png?raw=true" alt="diagram" width="400"/>
 </div>
-MARS is tasked to track a spiral trajectory with two faulty units. The faulty propellers are marked red. (a) MARS crashed after the complete failure of two units (all rotors are broken). (b) MARS can track trajectories after self-reconfiguration. 
+MARS is tasked with tracking a collision-free trajectory with one faulty unit. The faulty propellers are marked in red. (a) MARS cannot accurately follow the planned trajectory using an existing collision-free trajectory generation method~\cite{wang2024implicit} under a simple PID control. (b) MARS fails to track the trajectory planned with~\cite{wang2024implicit} under our proposed fault-tolerant control. (c) MARS can track the trajectory planned with our proposed dynamics-aware planning method relatively accurately under our proposed fault-tolerant control.
 
 <!-- ## Table of contents
 1. [Project Overview](#project-Overview)
