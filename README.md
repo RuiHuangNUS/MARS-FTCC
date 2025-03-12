@@ -2,10 +2,10 @@
 
 ## Project Overview
 The project **MARS-FTCC** consists of two folders, which correspond to the **Algorithm** and **Simulation** in the paper that show the following two advantages of our method.
-1. We propose an efficient controllability analysis for MARS using a quasi-static model under control constraints.
-2. We propose a novel controllability margin (CM)--based method for calculating optimal self-reconfiguration sequences.
+1. We propose a novel fault-tolerant control reallocation method that adapts to arbitrary number of modular robots and their assembly formations.
+2. We propose an agile trajectory planning method for MARS of arbitrary configurations, which is collision-avoiding and dynamically feasible. 
 
-Please find out more details in our paper: "Robust Self-Reconfiguration for Fault-Tolerant Control of Modular Aerial Robot Systems" 
+Please find out more details in our paper: "Robust Fault-Tolerant Control and Agile Trajectory Planning for Modular Aerial Robotic Systems" 
 
 
 |                     A video  of this project             |
@@ -18,6 +18,7 @@ https://youtu.be/SB0hwK33088
 </div>
 MARS is tasked with tracking a collision-free trajectory with one faulty unit. The faulty propellers are marked in red. (a) MARS cannot accurately follow the planned trajectory using an existing collision-free trajectory generation method~\cite{wang2024implicit} under a simple PID control. (b) MARS fails to track the trajectory planned with~\cite{wang2024implicit} under our proposed fault-tolerant control. (c) MARS can track the trajectory planned with our proposed dynamics-aware planning method relatively accurately under our proposed fault-tolerant control.
 
+Todo:
 <!-- ## Table of contents
 1. [Project Overview](#project-Overview)
 2. [Dependency Packages](#Dependency-Packages)
