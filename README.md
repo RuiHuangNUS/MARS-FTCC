@@ -126,7 +126,7 @@ Please make sure that the following packages have already been installed before 
 ## 6 Contact Us
 If you encounter a bug in your implementation of the code, please do not hesitate to inform me.
 * Name: Mr. Rui Huang
-* Email: ruihuang@nus.edu.sg
+* Email: ruihuang@u.nus.edu
 
 ## Cite
 If you find this work helpful, please consider citing our paper.
