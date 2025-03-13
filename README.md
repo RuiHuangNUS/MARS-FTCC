@@ -35,7 +35,7 @@ Youtube: xxx Bilibili: xxx
 MARS is tasked with tracking a collision-free trajectory with one faulty unit. The faulty propellers are marked in red. (a) MARS cannot accurately follow the planned trajectory using an existing collision-free trajectory generation method [[2]](#2) under a simple PID control. (b) MARS fails to track the trajectory planned with [[2]](#2) under our proposed fault-tolerant control. (c) MARS can track the trajectory planned with our proposed dynamics-aware planning method relatively accurately under our proposed fault-tolerant control.
 
 <div align="center">
-  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/why_agile.gif?raw=true" alt="diagram"/>
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/why_agile.gif?raw=true" alt="diagram", width="900"/>
 </div>
 
 Advantages:
@@ -57,7 +57,7 @@ Advantages:
 
 ### 2.2 ​Fault-Tolerant Control During Flight​
 <div align="center">
-  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/FT_flight.gif?raw=true" alt="diagram"/>
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/FT_flight.gif?raw=true" alt="diagram", width="900"/>
 </div>
 
 ## 3 Comparison with the baseline method
