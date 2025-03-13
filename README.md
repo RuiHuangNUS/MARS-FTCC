@@ -92,7 +92,7 @@ Advantages:
 1. No oscillation (control robustness): significantly reduces oscillations during docking and separation compared to previous work [[1]](#1).
 
 ### 3.1 Collision-Free Trajectory Planning​  [[2]](#2)
- (a) Normal assembly (Dynamics Agnostic Planning [1]) |   (b) Normal assembly with Dynamics Aware Planning (Ours)  | (c) Post-failure assembly with fault-tolerance (Dynamics Agnostic Planning [1]) |   (d) Post-failure assembly with fault-tolerance (Ours Dynamics Aware Planning)
+(a) Normal assembly (Dynamics Agnostic Planning [1]) |   (b) Normal assembly with Dynamics Aware Planning (Ours)  | (c) Post-failure assembly with fault-tolerance (Dynamics Agnostic Planning [1]) |   (d) Post-failure assembly with fault-tolerance (Ours Dynamics Aware Planning)
 :---------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:
 
 Fault in No.3 of 4×1 Assembly
