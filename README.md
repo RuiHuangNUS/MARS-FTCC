@@ -26,9 +26,27 @@ https://youtu.be/SB0hwK33088
       2. [B: Distributed Learning of Adaptive References](#B-Distributed-Learning-of-Adaptive-References)
 4. [Contact Us](#Contact-Us) -->
 
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Motivation: Dynamics Aware Planning and Control](#1-motivation-dynamics-aware-planning-and-control)
+3. [Fault-Tolerant Control](#2-fault-tolerant-control)  
+   - [Fault-Tolerant via Control Reallocation](#21-fault-tolerant-via-control-reallocation)  
+   - [Fault-Tolerant Control During Flight](#22-fault-tolerant-control-during-flight)
+4. [Comparison with the Baseline Method](#3-comparison-with-the-baseline-method)  
+   - [Self-Reconfiguration Fault-Tolerant Control](#31-self-reconfiguration-fault-tolerant-control)  
+   - [Collision-Free Trajectory Planning](#32-collision-free-trajectory-planning)
+5. [How to Use](#5-how-to-use)  
+   - [Dependency Packages](#51-dependency-packages)  
+   - [Algorithm 1: Find Optimal Reconfiguration](#52-algorithm-1-find-optimal-reconfiguration)  
+   - [Algorithm 3: Plan Disassembly and Assembly Sequence](#53-algorithm-3-plan-disassembly-and-assembly-sequence)  
+   - [Simulation](#54-simulation)
+6. [Contact Us](#6-contact-us)
+7. [Cite](#cite)
+8. [References](#references)
+
 ## 1 Motivation​: Dynamics Aware Planning and Control​
 
-MARS is tasked with tracking a collision-free trajectory with one faulty unit. The faulty propellers are marked in red. (a) MARS cannot accurately follow the planned trajectory using an existing collision-free trajectory generation method~\cite{wang2024implicit} under a simple PID control. (b) MARS fails to track the trajectory planned with [[2]](#2) under our proposed fault-tolerant control. (c) MARS can track the trajectory planned with our proposed dynamics-aware planning method relatively accurately under our proposed fault-tolerant control.
+MARS is tasked with tracking a collision-free trajectory with one faulty unit. The faulty propellers are marked in red. (a) MARS cannot accurately follow the planned trajectory using an existing collision-free trajectory generation method [[2]](#2) under a simple PID control. (b) MARS fails to track the trajectory planned with [[2]](#2) under our proposed fault-tolerant control. (c) MARS can track the trajectory planned with our proposed dynamics-aware planning method relatively accurately under our proposed fault-tolerant control.
 
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/why_agile.gif?raw=true" alt="diagram"/>
