@@ -133,6 +133,8 @@ If you encounter a bug in your implementation of the code, please do not hesitat
 * Email: ruihuang@nus.edu.sg
 
 ## Cite
+If you find this work helpful, please consider citing our paper.
+
 ```
 @misc{huang2025robust,
       
