@@ -10,21 +10,7 @@ Please find out more details in our paper: ["Robust Fault-Tolerant Control and A
 |                     A video  of this project             |
 :----------------------------------------------------------------------------------------------------------------------------------:
 [![NetFlix on UWP](https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/MARS_FTCC.png?raw=true)](https://youtu.be/SB0hwK33088 "NetFlix on UWP")
-Youtube: https://youtu.be/SB0hwK33088 Bilibili: XXX
-
-<!-- <div align="center">
-  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/MARS_FTCC.png?raw=true" alt="diagram" width="400"/>
-
-  A diagram of the Agile Trajectory Planning 
-</div> -->
-
-<!-- ## Table of contents
-1. [Project Overview](#project-Overview)
-2. [Dependency Packages](#Dependency-Packages)
-3. [How to Use](#How-to-Use)
-      1. [A: Distributed Learning of Adaptive Weightings](#A-Distributed-Learning-of-Adaptive-Weightings)
-      2. [B: Distributed Learning of Adaptive References](#B-Distributed-Learning-of-Adaptive-References)
-4. [Contact Us](#Contact-Us) -->
+Youtube: xxx Bilibili: xxx
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
