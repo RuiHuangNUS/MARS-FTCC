@@ -9,7 +9,7 @@ Please find out more details in our paper: "Robust Fault-Tolerant Control and Ag
 
 |                     A video  of this project             |
 :----------------------------------------------------------------------------------------------------------------------------------:
-[![NetFlix on UWP](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/movie_cover.png?raw=true)](https://youtu.be/SB0hwK33088 "NetFlix on UWP")
+[![NetFlix on UWP](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/MARS_FTCC.png?raw=true)](https://youtu.be/SB0hwK33088 "NetFlix on UWP")
 https://youtu.be/SB0hwK33088
 |                     A diagram of the Agile Trajectory Planning             |
 <div align="center">
@@ -29,9 +29,10 @@ Todo:
 ## 1 Motivation​: Dynamics Aware Planning and Control​
 
 We Calculate the optimal configuration with maximum remaining control authority using controllability margin (CM)
-  (a) Dynamics Agnostic PnC [1]​ (No Fault)     |   (b) Dynamics Aware PnC (Ours)​ (No Fault)​
-:---------------------------------------------------------------:|:--------------------------------------------------------------:
-![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x2.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x3.gif)
+
+<div align="center">
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/why_agile.gif?raw=true" alt="diagram"/>
+</div>
 
 Advantages:
 1. Dynamics Aware PnC ​Enhance dynamic feasibility​
@@ -76,41 +77,35 @@ Each step of disassembly and assembly is ensured to be theoretically optimal
 
 ### 3.1 Self-Reconfiguration Fault-Tolerant Control ​ [[1]](#1)
 
+<div align="center">
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x3_plus_combined.gif?raw=true" alt="diagram", width="900"/>
+</div>
 3x1 Assembly
 
 <div align="center">
-  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x3_plus_combined.gif?raw=true" alt="diagram"/>
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x1_combined.gif?raw=true" alt="diagram", width="900"/>
 </div>
-
 3x3 Plus Assembly
-
-<div align="center">
-  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x1_combined.gif?raw=true" alt="diagram"/>
-</div>
-
 Advantages:
 1. No oscillation (control robustness): significantly reduces oscillations during docking and separation compared to previous work [[1]](#1).
 
 ### 3.1 Collision-Free Trajectory Planning​  [[2]](#2)
 (a) Normal assembly (Dynamics Agnostic Planning [1]) |   (b) Normal assembly with Dynamics Aware Planning (Ours)  | (c) Post-failure assembly with fault-tolerance (Dynamics Agnostic Planning [1]) |   (d) Post-failure assembly with fault-tolerance (Ours Dynamics Aware Planning)
 :---------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:
-
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_4x1_3.gif?raw=true" alt="diagram", width="900"/>
 </div>
-Fault in No.3 of 4×1 Assembly
+Fault in No.3 of 4×1 Assembly (4X)
 
 
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_4x1_4.gif?raw=true" alt="diagram", width="900"/>
 </div>
-Fault in No.4 of 4×1 Assembly
+Fault in No.4 of 4×1 Assembly (4X)
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_3x2_2.gif?raw=true" alt="diagram", width="900"/>
 </div>
-Fault in No.2 of 3×2 Assembly
-
-
+Fault in No.2 of 3×2 Assembly (4X)
 
 Advantages:
 1. Enhanced stability (control robustness) and better guarantee of collision avoidance compared to [1].
