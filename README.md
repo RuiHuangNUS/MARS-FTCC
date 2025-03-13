@@ -75,6 +75,9 @@ Each step of disassembly and assembly is ensured to be theoretically optimal
 ## 3 Comparison with the baseline method
 
 ### 3.1 Self-Reconfiguration Fault-Tolerant Control ​ [[1]](#1)
+ (a) 3×2 assembly: full disassembly  |   (b) 3×2 assembly: partial disassembly | (c) 3×2 assembly: full disassembly  |   (d) 3×2 assembly: partial disassembly 
+:---------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:
+
 3x1 Assembly
 
 <div align="center">
