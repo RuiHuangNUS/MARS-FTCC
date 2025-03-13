@@ -101,7 +101,7 @@ Advantages:
 1. No oscillation during trajectory switching after self-reconfiguration
 2. Improved trajectory tracking after self-reconfiguration
 
-## 5 How to Use (coming soon)
+## 5 How to Use
 First and foremost, the implementation for MARS-Reconfig is straightforward to setup. The source code has been comprehensively annotated to facilitate ease of use. To reproduce the simulation results presented in the paper, simply follow the steps outlined below, sequentially, after downloading and decompressing all the necessary folders.
 All the control methods of different configurations are based on previous works [[1]](#1).
 
@@ -126,7 +126,6 @@ Please make sure that the following packages have already been installed before 
 
 ### 5.4 Simulation
 1. Simulation 1: Full disassembly in a 3×2 assembly, Open the file '**3x2_full_disassembly.ttt**' in the folder '**Simulation**'
-2. Simulation 2: Partial disassembly in a 3×2 assembly, Open the file '**3x2_partial_disassembly.ttt**' in the folder '**Simulation**'
 
 ## 6 Contact Us
 If you encounter a bug in your implementation of the code, please do not hesitate to inform me.
@@ -145,9 +144,11 @@ If you encounter a bug in your implementation of the code, please do not hesitat
 }
 
 ## References
-<a id="1">[1]</a> Rui Huang, Siyu Tang, Zhiqian Cai, and Lin Zhao, “Robust Self-Reconfiguration for Fault-Tolerant Control of Modular Aerial Robot Systems,” IEEE International Conference on Robotics & Automation (ICRA), 2025. Available: https://github.com/RuiHuangNUS/MARS-Reconfig https://arxiv.org/abs/2503.09376
+<a id="1">[1]</a> J. Wang, T. Zhang, Q. Zhang, C. Zeng, J. Yu, C. Xu, L. Xu, and F. Gao, “Implicit swept volume sdf: Enabling continuous collision-free trajectory generation for arbitrary shapes,” ACM Transactions on Graphics (TOG), vol. 43, no. 4, pp. 1–14, 2024.
 
-<a id="21">[2]</a> R. HUANG, H. SHENG, C. Qian, R. Ziting, X. Zhen, L. Jiacheng, and L. Tong, “Adaptive configuration control of combined uavs based on leader-wingman mode,” Chinese Journal of Aeronautics, 2024.
+<a id="2">[2]</a> N. Gandhi, D. Saldana, V. Kumar, and L. T. X. Phan, “Self-reconfiguration in response to faults in modular aerial systems,” IEEE Robotics and Automation Letters, vol. 5, no. 2, pp. 2522–2529, 2020.
 
-<a id="3">[3]</a> N. Gandhi, D. Saldana, V. Kumar, and L. T. X. Phan, “Self-reconfiguration in response to faults in modular aerial systems,” IEEE Robotics and Automation Letters, vol. 5, no. 2, pp. 2522–2529, 2020.
+<a id="3">[3]</a> Rui Huang, Siyu Tang, Zhiqian Cai, and Lin Zhao, “Robust Self-Reconfiguration for Fault-Tolerant Control of Modular Aerial Robot Systems,” IEEE International Conference on Robotics & Automation (ICRA), 2025. Available: https://github.com/RuiHuangNUS/MARS-Reconfig https://arxiv.org/abs/2503.09376
+
+<a id="4">[4]</a> R. HUANG, H. SHENG, C. Qian, R. Ziting, X. Zhen, L. Jiacheng, and L. Tong, “Adaptive configuration control of combined uavs based on leader-wingman mode,” Chinese Journal of Aeronautics, 2024.
 
