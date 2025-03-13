@@ -86,11 +86,10 @@ Each step of disassembly and assembly is ensured to be theoretically optimal
 ![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x3_full.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x3_partial.gif)
 
 Advantages:
-1. Higher controllability margins (Control robustness)
-2. With improvements of up to 264.50% (blue) and 138.63% (green) compared to [[2]](#2).
-3. Fewer disassembly and assembly times (save energy and time)
-4. Reducing the number of steps by 81.81% and 45.45%, respectively.
-5. Less oscillation in the reassembled drone after docking and separation.
+1. X
+2. X
+3. X
+
 
 ## 4 Self-reconfiguration
 <div align="center">
@@ -122,7 +121,7 @@ Please make sure that the following packages have already been installed before 
 
 1. Open the Python file '**Algorithm3_Plan_Disassembly_Assembly_Sequence.py**' in the folder '**Algorithm**'
 2. Before running, please do the following settings:
-   * Set the configuration on line 14. 
+   * Set the configuration on line 14.
 
 ### 5.4 Simulation
 1. Simulation 1: Full disassembly in a 3×2 assembly, Open the file '**3x2_full_disassembly.ttt**' in the folder '**Simulation**'
