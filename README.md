@@ -1,4 +1,4 @@
-# MARS-FTCC: Robust Fault-Tolerant Control and Agile Trajectory Planning for Modular Aerial Robotic Systems (Coming soon)
+# MARS-FTCC: Robust Fault-Tolerant Control and Agile Trajectory Planning for Modular Aerial Robotic Systems
 
 ## Project Overview
 The project **MARS-FTCC** consists of two folders, which correspond to the **Algorithm** and **Simulation** in the paper that show the following two advantages of our method.
@@ -109,7 +109,7 @@ Advantages:
 1. Enhanced stability (control robustness) and better guarantee of collision avoidance compared to [1].
 2. Reduced tracking errors
 
-## 5 How to Use
+## 5 How to Use (Coming soon)
 First and foremost, the implementation for MARS-Reconfig is straightforward to setup. The source code has been comprehensively annotated to facilitate ease of use. To reproduce the simulation results presented in the paper, simply follow the steps outlined below, sequentially, after downloading and decompressing all the necessary folders. All self-reconfiguration is based on our previous work [[3]](#3), and the control methods of different configurations are based on previous works [[4]](#4).
 
 ### 5.1 Dependency Packages
