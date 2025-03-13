@@ -13,6 +13,7 @@ Please find out more details in our paper: "Robust Fault-Tolerant Control and Ag
 https://youtu.be/SB0hwK33088
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/Fig1.png?raw=true" alt="diagram" width="400"/>
+  
   A diagram of the Agile Trajectory Planning 
 </div>
 
@@ -56,11 +57,13 @@ Advantages:
 ### 3.1 Self-Reconfiguration Fault-Tolerant Control ​ [[1]](#1)
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x3_plus_self_reconfiguration.gif?raw=true" alt="diagram", width="900"/>
+
   3x3 Plus Assembly
 </div>
 
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x1_self_reconfiguration.gif?raw=true" alt="diagram", width="350"/>
+
   3x1 Assembly
 </div>
 
