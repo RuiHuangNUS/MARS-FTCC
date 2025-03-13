@@ -11,9 +11,9 @@ Please find out more details in our paper: "Robust Fault-Tolerant Control and Ag
 :----------------------------------------------------------------------------------------------------------------------------------:
 [![NetFlix on UWP](https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/MARS_FTCC.png?raw=true)](https://youtu.be/SB0hwK33088 "NetFlix on UWP")
 https://youtu.be/SB0hwK33088
-|                     A diagram of the Agile Trajectory Planning             |
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/Fig1.png?raw=true" alt="diagram" width="400"/>
+  A diagram of the Agile Trajectory Planning 
 </div>
 
 <!-- ## Table of contents
@@ -73,13 +73,9 @@ Each step of disassembly and assembly is ensured to be theoretically optimal -->
 </div>
 
 <div align="center">
-  3x3 Plus Assembly
-</div>
-
-<div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x1_self_reconfiguration.gif?raw=true" alt="diagram", width="350"/>
+  3x1 Assembly
 </div>
-3x1 Assembly
 
 Advantages:
 1. No oscillation (control robustness): significantly reduces oscillations during docking and separation compared to previous work [[1]](#1).
@@ -89,18 +85,18 @@ Advantages:
 :---------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_4x1_3.gif?raw=true" alt="diagram", width="900"/>
+  Fault in No.3 of 4×1 Assembly (4X)
 </div>
-Fault in No.3 of 4×1 Assembly (4X)
-
 
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_4x1_4.gif?raw=true" alt="diagram", width="900"/>
+  Fault in No.4 of 4×1 Assembly (4X)
 </div>
-Fault in No.4 of 4×1 Assembly (4X)
+
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_3x2_2.gif?raw=true" alt="diagram", width="900"/>
+  Fault in No.2 of 3×2 Assembly (4X)
 </div>
-Fault in No.2 of 3×2 Assembly (4X)
 
 Advantages:
 1. Enhanced stability (control robustness) and better guarantee of collision avoidance compared to [1].
