@@ -12,7 +12,7 @@ Please find out more details in our paper: "Robust Fault-Tolerant Control and Ag
 :----------------------------------------------------------------------------------------------------------------------------------:
 [![NetFlix on UWP](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/movie_cover.png?raw=true)](https://youtu.be/SB0hwK33088 "NetFlix on UWP")
 https://youtu.be/SB0hwK33088
-|                     A diagram of the self-reconfiguration             |
+|                     A diagram of the Agile Trajectory Planning             |
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/Fig1.png?raw=true" alt="diagram" width="400"/>
 </div>
@@ -27,19 +27,21 @@ Todo:
       2. [B: Distributed Learning of Adaptive References](#B-Distributed-Learning-of-Adaptive-References)
 4. [Contact Us](#Contact-Us) -->
 
-## 1 Why Fault-Tolerant Cooperative Control?
+## 1 Motivation​: Dynamics Aware Planning and Control​
 
-During docking or separation, there may be potential issues that could lead to flight failure. In such cases, the combined units will...
+We Calculate the optimal configuration with maximum remaining control authority using controllability margin (CM)
+  (a) Dynamics Agnostic PnC [1]​ (No Fault)     |   (b) Dynamics Aware PnC (Ours)​ (No Fault)​
+:---------------------------------------------------------------:|:--------------------------------------------------------------:
+![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x2.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x3.gif)
 
-Gif: failed docking test
-
-  (a)  Before Fault-tolerance    |   (b) After Fault-tolerance (Ours)  |  (c) After Cooperative Fault Tolerance (Ours)
-:---------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:
-![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x2_fault_track.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x2_self_reconfiguration_track.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x2_self_reconfiguration_track.gif) 
+  (a) (c) Dynamics Agnostic PnC [1]​ (Fault Occurs in Drone Unit No.2)      |   (b) (d) Dynamics Aware PnC (Ours)​ (Fault Occurs in Drone Unit No.2) 
+:---------------------------------------------------------------:|:--------------------------------------------------------------:
+![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x2.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x3.gif)
 
 Advantages:
-1. More control authority – Improved robustness against unit faulty
-2. Improved trajectory tracking performance
+1. Dynamics Aware PnC ​Enhance dynamic feasibility​
+2. Collision-free flying and reduced tracking errors ​
+3. Less yaw motion ​(enhancing safety)
 
 ## 2 How to Fault-Tolerant Cooperative Control?
 ### 2.1 Fault Tolerance (propeller)
