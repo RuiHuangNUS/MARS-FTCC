@@ -11,9 +11,10 @@ Please find out more details in our paper: "Robust Fault-Tolerant Control and Ag
 :----------------------------------------------------------------------------------------------------------------------------------:
 [![NetFlix on UWP](https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/MARS_FTCC.png?raw=true)](https://youtu.be/SB0hwK33088 "NetFlix on UWP")
 https://youtu.be/SB0hwK33088
+
 <div align="center">
-  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/Fig1.png?raw=true" alt="diagram" width="400"/>
-  
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/MARS_FTCC.png?raw=true" alt="diagram" width="400"/>
+
   A diagram of the Agile Trajectory Planning 
 </div>
 
@@ -27,7 +28,7 @@ https://youtu.be/SB0hwK33088
 
 ## 1 Motivation​: Dynamics Aware Planning and Control​
 
-MARS is tasked with tracking a collision-free trajectory with one faulty unit. The faulty propellers are marked in red. (a) MARS cannot accurately follow the planned trajectory using an existing collision-free trajectory generation method~\cite{wang2024implicit} under a simple PID control. (b) MARS fails to track the trajectory planned with~\cite{wang2024implicit} under our proposed fault-tolerant control. (c) MARS can track the trajectory planned with our proposed dynamics-aware planning method relatively accurately under our proposed fault-tolerant control.
+MARS is tasked with tracking a collision-free trajectory with one faulty unit. The faulty propellers are marked in red. (a) MARS cannot accurately follow the planned trajectory using an existing collision-free trajectory generation method~\cite{wang2024implicit} under a simple PID control. (b) MARS fails to track the trajectory planned with [[2]](#2) under our proposed fault-tolerant control. (c) MARS can track the trajectory planned with our proposed dynamics-aware planning method relatively accurately under our proposed fault-tolerant control.
 
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/why_agile.gif?raw=true" alt="diagram"/>
@@ -41,10 +42,13 @@ Advantages:
 ## 2 Fault-tolerant control
 ### 2.1 Fault-tolerant via Control Re-allocation​
 <div align="center">
-  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/FT.gif?raw=true" alt="diagram"/>
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/FT.gif?raw=true" alt="diagram", width="900"/>
 </div>
+
 Advantages:
+
 1. No need for optimization with an objective function (Less time consumption)
+
 2. The optimal configuration ensures controllability and is theoretically guaranteed
 
 ### 2.2 ​Fault-Tolerant Control During Flight​
@@ -71,7 +75,7 @@ Advantages:
 1. No oscillation (control robustness): significantly reduces oscillations during docking and separation compared to previous work [[1]](#1).
 
 ### 3.1 Collision-Free Trajectory Planning​  [[2]](#2)
-(a) Normal assembly (Dynamics Agnostic Planning [1]) |   (b) Normal assembly with Dynamics Aware Planning (Ours)  | (c) Post-failure assembly with fault-tolerance (Dynamics Agnostic Planning [1]) |   (d) Post-failure assembly with fault-tolerance (Ours Dynamics Aware Planning)
+(a) Normal assembly (Dynamics Agnostic Planning  [[1]](#1)) |   (b) Normal assembly with Dynamics Aware Planning (Ours)  | (c) Post-failure assembly with fault-tolerance (Dynamics Agnostic Planning  [[1]](#1)) |   (d) Post-failure assembly with fault-tolerance (Ours Dynamics Aware Planning)
 :---------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_4x1_3.gif?raw=true" alt="diagram", width="900"/>
@@ -89,7 +93,7 @@ Advantages:
 </div>
 
 Advantages:
-1. Enhanced stability (control robustness) and better guarantee of collision avoidance compared to [1].
+1. Enhanced stability (control robustness) and better guarantee of collision avoidance compared to  [[1]](#1).
 2. Reduced tracking errors
 
 ## 5 How to Use (Coming soon)
