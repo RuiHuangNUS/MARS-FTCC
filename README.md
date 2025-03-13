@@ -112,7 +112,7 @@ Please make sure that the following packages have already been installed before 
 
 ### 5.2 Algorithm 1 Find Optimal Reconfiguration
 
-1. Open the Python file '**Algorithm1_Find_Optimal_Reconfiguration.py**' in the folder '**Algorithm**'
+1. Open the Python file '**xxx.py**' in the folder '**Algorithm**'
 2. Before running, please do the following settings:
    * Set the number of quadrotors on line 225 and 226.
    * Set the Fault status of four rotors on line 229 (the default value is rotor_faults = [True, True, True, True]).
@@ -120,12 +120,12 @@ Please make sure that the following packages have already been installed before 
 
 ### 5.3 Algorithm 3 Plan Disassembly and Assembly Sequence
 
-1. Open the Python file '**Algorithm3_Plan_Disassembly_Assembly_Sequence.py**' in the folder '**Algorithm**'
+1. Open the Python file '**xxx.py**' in the folder '**Algorithm**'
 2. Before running, please do the following settings:
    * Set the configuration on line 14.
 
 ### 5.4 Simulation
-1. Simulation 1: Full disassembly in a 3×2 assembly, Open the file '**3x2_full_disassembly.ttt**' in the folder '**Simulation**'
+1. Simulation 1: Full disassembly in a 3×2 assembly, Open the file '**xxx.ttt**' in the folder '**Simulation**'
 
 ## 6 Contact Us
 If you encounter a bug in your implementation of the code, please do not hesitate to inform me.
