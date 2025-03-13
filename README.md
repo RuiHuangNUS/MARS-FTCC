@@ -69,8 +69,12 @@ Each step of disassembly and assembly is ensured to be theoretically optimal -->
 ### 3.1 Self-Reconfiguration Fault-Tolerant Control ​ [[1]](#1)
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x3_plus_self_reconfiguration.gif?raw=true" alt="diagram", width="900"/>
+  3x3 Plus Assembly
 </div>
-3x3 Plus Assembly
+
+<div align="center">
+  3x3 Plus Assembly
+</div>
 
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x1_self_reconfiguration.gif?raw=true" alt="diagram", width="350"/>
