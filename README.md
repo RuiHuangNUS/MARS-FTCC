@@ -37,7 +37,7 @@ Advantages:
 2. Collision-free flying and reduced tracking errors ​
 3. Less yaw motion ​(enhancing safety)
 
-## 2 Methods
+## 2 Fault-tolerant control
 ### 2.1 Fault-tolerant via Control Re-allocation​
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/FT.gif?raw=true" alt="diagram"/>
@@ -50,19 +50,6 @@ Advantages:
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/FT_flight.gif?raw=true" alt="diagram"/>
 </div>
-
-### 2.3 Agile Trajectory Planning
-
-### 2.4 Collision-free Trajectory Planning​
-
- <!-- (a) 3×2 assembly: full disassembly  |   (b) 3×2 assembly: partial disassembly 
-:---------------------------------------------------------------:|:--------------------------------------------------------------:
-![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/full_self_reconfiguration_3x2.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/partial_self_reconfiguration_3x2.gif)
- (c) 3×3 assembly: full disassembly  |   (d) 3×3 assembly: partial disassembly 
-![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/full_self_reconfiguration_3x3.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/partial_self_reconfiguration_3x3.gif)
-
-Advantages:
-Each step of disassembly and assembly is ensured to be theoretically optimal -->
 
 ## 3 Comparison with the baseline method
 
