@@ -75,8 +75,6 @@ Each step of disassembly and assembly is ensured to be theoretically optimal
 ## 3 Comparison with the baseline method
 
 ### 3.1 Self-Reconfiguration Fault-Tolerant Control ​ [[1]](#1)
- (a) 3×2 assembly: full disassembly  |   (b) 3×2 assembly: partial disassembly | (c) 3×2 assembly: full disassembly  |   (d) 3×2 assembly: partial disassembly 
-:---------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:
 
 3x1 Assembly
 
@@ -87,14 +85,15 @@ Each step of disassembly and assembly is ensured to be theoretically optimal
 3x3 Plus Assembly
 
 <div align="center">
-  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x3_plus_combined.gif?raw=true" alt="diagram"/>
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x1_combined.gif?raw=true" alt="diagram"/>
 </div>
 
 Advantages:
 1. No oscillation (control robustness): significantly reduces oscillations during docking and separation compared to previous work [[1]](#1).
 
 ### 3.1 Collision-Free Trajectory Planning​  [[2]](#2)
-
+ (a) Normal assembly (Dynamics Agnostic Planning [1]) |   (b) Normal assembly with Dynamics Aware Planning (Ours)  | (c) Post-failure assembly with fault-tolerance (Dynamics Agnostic Planning [1]) |   (d) Post-failure assembly with fault-tolerance (Ours Dynamics Aware Planning)
+:---------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:
 Fault in No.3 of 4×1 Assembly
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_4x1_3.gif?raw=true" alt="diagram"/>
