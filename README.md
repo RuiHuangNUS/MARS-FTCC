@@ -47,7 +47,7 @@ Advantages:
 
 We Calculate the optimal configuration with maximum remaining control authority using controllability margin (CM)
 <div align="center">
-  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/FT.gif?raw=true" alt="diagram" width="600"/>
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/FT.gif?raw=true" alt="diagram"/>
 </div>
 
 Advantages:
