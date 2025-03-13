@@ -50,9 +50,7 @@ Advantages:
 </div>
 
 Advantages:
-
 1. No need for optimization with an objective function (Less time consumption)
-
 2. The optimal configuration ensures controllability and is theoretically guaranteed
 
 ### 2.2 ​Fault-Tolerant Control During Flight​
