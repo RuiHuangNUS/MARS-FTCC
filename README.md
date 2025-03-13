@@ -39,37 +39,30 @@ Advantages:
 
 ## 2 Methods
 ### 2.1 Fault-tolerant via Control Re-allocation​
-
-We Calculate the optimal configuration with maximum remaining control authority using controllability margin (CM)
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/FT.gif?raw=true" alt="diagram"/>
 </div>
-
 Advantages:
 1. No need for optimization with an objective function (Less time consumption)
 2. The optimal configuration ensures controllability and is theoretically guaranteed
 
 ### 2.2 ​Fault-Tolerant Control During Flight​
-We designed the Minimum Controllable Subassembly to enable the transfer of faulty units.
 <div align="center">
-  <img src="https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/self_reconfiguration_flow.png?raw=true" alt="diagram" width="400"/>
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/FT_flight.gif?raw=true" alt="diagram"/>
 </div>
-
-Advantages:
-The minimum controllable subassembly ensures the safety of faulty units
 
 ### 2.3 Agile Trajectory Planning
 
 ### 2.4 Collision-free Trajectory Planning​
 
- (a) 3×2 assembly: full disassembly  |   (b) 3×2 assembly: partial disassembly 
+ <!-- (a) 3×2 assembly: full disassembly  |   (b) 3×2 assembly: partial disassembly 
 :---------------------------------------------------------------:|:--------------------------------------------------------------:
 ![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/full_self_reconfiguration_3x2.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/partial_self_reconfiguration_3x2.gif)
  (c) 3×3 assembly: full disassembly  |   (d) 3×3 assembly: partial disassembly 
 ![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/full_self_reconfiguration_3x3.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/partial_self_reconfiguration_3x3.gif)
 
 Advantages:
-Each step of disassembly and assembly is ensured to be theoretically optimal
+Each step of disassembly and assembly is ensured to be theoretically optimal -->
 
 ## 3 Comparison with the baseline method
 
