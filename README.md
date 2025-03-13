@@ -46,9 +46,9 @@ Advantages:
 ### 2.1 Fault-tolerant via Control Re-allocation​
 
 We Calculate the optimal configuration with maximum remaining control authority using controllability margin (CM)
-  (a) Calculate the Optimal Reconfiguration in a 3×2 assembly     |   (b) Calculate the Optimal Reconfiguration in a 3×3 assembly 
-:---------------------------------------------------------------:|:--------------------------------------------------------------:
-![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x2.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x3.gif)
+<div align="center">
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/FT.gif?raw=true" alt="diagram" width="500"/>
+</div>
 
 Advantages:
 1. No need for optimization with an objective function (Less time consumption)
