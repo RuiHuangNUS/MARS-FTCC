@@ -133,7 +133,7 @@ If you encounter a bug in your implementation of the code, please do not hesitat
 * Name: Mr. Rui Huang
 * Email: ruihuang@nus.edu.sg
 
-## References
+## Cite
 @misc{huang2025robust,
       title={Robust Fault-Tolerant Control and Agile Trajectory Planning for Modular Aerial Robotic Systems}, 
       author={Rui Huang and Zhenyu Zhang and Siyu Tang and Zhiqian Cai and Lin Zhao},
