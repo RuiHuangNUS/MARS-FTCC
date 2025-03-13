@@ -33,10 +33,6 @@ We Calculate the optimal configuration with maximum remaining control authority 
 :---------------------------------------------------------------:|:--------------------------------------------------------------:
 ![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x2.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x3.gif)
 
-  (a) Dynamics Agnostic PnC [1]​ (Fault Occurs in Drone Unit No.2)      |   (d) Dynamics Aware PnC (Ours)​ (Fault Occurs in Drone Unit No.2) 
-:---------------------------------------------------------------:|:--------------------------------------------------------------:
-![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x2.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x3.gif)
-
 Advantages:
 1. Dynamics Aware PnC ​Enhance dynamic feasibility​
 2. Collision-free flying and reduced tracking errors ​
@@ -79,19 +75,40 @@ Each step of disassembly and assembly is ensured to be theoretically optimal
 ## 3 Comparison with the baseline method
 
 ### 3.1 Self-Reconfiguration Fault-Tolerant Control ​ [[1]](#1)
+3x1 Assembly
 
-We Calculate the optimal configuration with maximum remaining control authority using controllability margin (CM)
+<div align="center">
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x3_plus_combined.gif?raw=true" alt="diagram"/>
+</div>
+
+3x3 Plus Assembly
+
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x3_plus_combined.gif?raw=true" alt="diagram"/>
 </div>
 
 Advantages:
-1. X
-2. X
-3. X
+1. No oscillation (control robustness): significantly reduces oscillations during docking and separation compared to previous work [[1]](#1).
 
 ### 3.1 Collision-Free Trajectory Planning​  [[2]](#2)
 
+Fault in No.3 of 4×1 Assembly
+<div align="center">
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_4x1_3.gif?raw=true" alt="diagram"/>
+</div>
+
+Fault in No.4 of 4×1 Assembly
+<div align="center">
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_4x1_4.gif?raw=true" alt="diagram"/>
+</div>
+
+Fault in No.2 of 3×2 Assembly
+
+
+
+Advantages:
+1. Enhanced stability (control robustness) and better guarantee of collision avoidance compared to [1].
+2. Reduced tracking errors
 
 ## 5 How to Use
 First and foremost, the implementation for MARS-Reconfig is straightforward to setup. The source code has been comprehensively annotated to facilitate ease of use. To reproduce the simulation results presented in the paper, simply follow the steps outlined below, sequentially, after downloading and decompressing all the necessary folders. All self-reconfiguration is based on our previous work [[3]](#3), and the control methods of different configurations are based on previous works [[4]](#4).
