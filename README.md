@@ -5,7 +5,7 @@ The project **MARS-FTCC** consists of two folders, which correspond to the **Alg
 1. We propose a novel fault-tolerant control reallocation method that adapts to arbitrary number of modular robots and their assembly formations.
 2. We propose an agile trajectory planning method for MARS of arbitrary configurations, which is collision-avoiding and dynamically feasible. 
 
-Please find out more details in our paper: ["Robust Fault-Tolerant Control and Agile Trajectory Planning for Modular Aerial Robotic Systems"](https://arxiv.org/abs/2503.09351)
+Please find out more details in our paper: ["Robust Fault-Tolerant Control and Agile Trajectory Planning for Modular Aerial Robotic Systems"](https://arxiv.org/pdf/2503.09351)
 
 |                     A video  of this project             |
 :----------------------------------------------------------------------------------------------------------------------------------:
