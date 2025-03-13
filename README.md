@@ -133,23 +133,18 @@ If you encounter a bug in your implementation of the code, please do not hesitat
 * Email: ruihuang@nus.edu.sg
 
 ## Cite
+```
 @misc{huang2025robust,
       
       title={Robust Fault-Tolerant Control and Agile Trajectory Planning for Modular Aerial Robotic Systems}, 
-      
       author={Rui Huang and Zhenyu Zhang and Siyu Tang and Zhiqian Cai and Lin Zhao},
-      
       year={2025},
-      
       eprint={2503.09351},
-      
       archivePrefix={arXiv},
-      
       primaryClass={cs.RO},
-      
       url={https://arxiv.org/abs/2503.09351}, 
 }
-
+```
 ## References
 <a id="1">[1]</a> N. Gandhi, D. Saldana, V. Kumar, and L. T. X. Phan, “Self-reconfiguration in response to faults in modular aerial systems,” IEEE Robotics and Automation Letters, vol. 5, no. 2, pp. 2522–2529, 2020.
 
