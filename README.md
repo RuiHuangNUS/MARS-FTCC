@@ -134,12 +134,19 @@ If you encounter a bug in your implementation of the code, please do not hesitat
 
 ## Cite
 @misc{huang2025robust,
+      
       title={Robust Fault-Tolerant Control and Agile Trajectory Planning for Modular Aerial Robotic Systems}, 
+      
       author={Rui Huang and Zhenyu Zhang and Siyu Tang and Zhiqian Cai and Lin Zhao},
+      
       year={2025},
+      
       eprint={2503.09351},
+      
       archivePrefix={arXiv},
+      
       primaryClass={cs.RO},
+      
       url={https://arxiv.org/abs/2503.09351}, 
 }
 
