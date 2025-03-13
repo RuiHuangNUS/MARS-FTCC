@@ -80,7 +80,7 @@ Each step of disassembly and assembly is ensured to be theoretically optimal
 3x3 Plus Assembly
 
 <div align="center">
-  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x1_self_reconfiguration.gif?raw=true" alt="diagram", width="500"/>
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x1_self_reconfiguration.gif?raw=true" alt="diagram", width="350"/>
 </div>
 3x1 Assembly
 
