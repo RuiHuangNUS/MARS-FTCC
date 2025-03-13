@@ -74,16 +74,16 @@ Each step of disassembly and assembly is ensured to be theoretically optimal
 ## 3 Comparison with the baseline method
 
 ### 3.1 Self-Reconfiguration Fault-Tolerant Control ​ [[1]](#1)
+<div align="center">
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x3_plus_self_reconfiguration.gif?raw=true" alt="diagram", width="900"/>
+</div>
+3x3 Plus Assembly
 
 <div align="center">
-  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x3_plus_combined.gif?raw=true" alt="diagram", width="900"/>
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x1_self_reconfiguration.gif?raw=true" alt="diagram", width="500"/>
 </div>
 3x1 Assembly
 
-<div align="center">
-  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/3x1_combined.gif?raw=true" alt="diagram", width="900"/>
-</div>
-3x3 Plus Assembly
 Advantages:
 1. No oscillation (control robustness): significantly reduces oscillations during docking and separation compared to previous work [[1]](#1).
 
