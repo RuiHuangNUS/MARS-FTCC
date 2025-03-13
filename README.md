@@ -9,15 +9,13 @@ Please find out more details in our paper: "Robust Fault-Tolerant Control and Ag
 
 |                     A video  of this project             |
 :----------------------------------------------------------------------------------------------------------------------------------:
-[![NetFlix on UWP](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/MARS_FTCC.png?raw=true)](https://youtu.be/SB0hwK33088 "NetFlix on UWP")
+[![NetFlix on UWP](https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/MARS_FTCC.png?raw=true)](https://youtu.be/SB0hwK33088 "NetFlix on UWP")
 https://youtu.be/SB0hwK33088
 |                     A diagram of the Agile Trajectory Planning             |
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/Fig1.png?raw=true" alt="diagram" width="400"/>
 </div>
-MARS is tasked with tracking a collision-free trajectory with one faulty unit. The faulty propellers are marked in red. (a) MARS cannot accurately follow the planned trajectory using an existing collision-free trajectory generation method~\cite{wang2024implicit} under a simple PID control. (b) MARS fails to track the trajectory planned with~\cite{wang2024implicit} under our proposed fault-tolerant control. (c) MARS can track the trajectory planned with our proposed dynamics-aware planning method relatively accurately under our proposed fault-tolerant control.
 
-Todo:
 <!-- ## Table of contents
 1. [Project Overview](#project-Overview)
 2. [Dependency Packages](#Dependency-Packages)
@@ -28,7 +26,7 @@ Todo:
 
 ## 1 Motivation​: Dynamics Aware Planning and Control​
 
-We Calculate the optimal configuration with maximum remaining control authority using controllability margin (CM)
+MARS is tasked with tracking a collision-free trajectory with one faulty unit. The faulty propellers are marked in red. (a) MARS cannot accurately follow the planned trajectory using an existing collision-free trajectory generation method~\cite{wang2024implicit} under a simple PID control. (b) MARS fails to track the trajectory planned with~\cite{wang2024implicit} under our proposed fault-tolerant control. (c) MARS can track the trajectory planned with our proposed dynamics-aware planning method relatively accurately under our proposed fault-tolerant control.
 
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/why_agile.gif?raw=true" alt="diagram"/>
