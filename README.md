@@ -7,7 +7,6 @@ The project **MARS-FTCC** consists of two folders, which correspond to the **Alg
 
 Please find out more details in our paper: "Robust Fault-Tolerant Control and Agile Trajectory Planning for Modular Aerial Robotic Systems" 
 
-
 |                     A video  of this project             |
 :----------------------------------------------------------------------------------------------------------------------------------:
 [![NetFlix on UWP](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/movie_cover.png?raw=true)](https://youtu.be/SB0hwK33088 "NetFlix on UWP")
@@ -34,7 +33,7 @@ We Calculate the optimal configuration with maximum remaining control authority 
 :---------------------------------------------------------------:|:--------------------------------------------------------------:
 ![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x2.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x3.gif)
 
-  (a) (c) Dynamics Agnostic PnC [1]​ (Fault Occurs in Drone Unit No.2)      |   (b) (d) Dynamics Aware PnC (Ours)​ (Fault Occurs in Drone Unit No.2) 
+  (a) Dynamics Agnostic PnC [1]​ (Fault Occurs in Drone Unit No.2)      |   (d) Dynamics Aware PnC (Ours)​ (Fault Occurs in Drone Unit No.2) 
 :---------------------------------------------------------------:|:--------------------------------------------------------------:
 ![cl_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x2.gif) | ![ol_training](https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/robot_configuration_3x3.gif)
 
@@ -43,8 +42,8 @@ Advantages:
 2. Collision-free flying and reduced tracking errors ​
 3. Less yaw motion ​(enhancing safety)
 
-## 2 How to Fault-Tolerant Cooperative Control?
-### 2.1 Fault Tolerance (propeller)
+## 2 Methods
+### 2.1 Fault-tolerant via Control Re-allocation​
 
 We Calculate the optimal configuration with maximum remaining control authority using controllability margin (CM)
   (a) Calculate the Optimal Reconfiguration in a 3×2 assembly     |   (b) Calculate the Optimal Reconfiguration in a 3×3 assembly 
@@ -55,7 +54,7 @@ Advantages:
 1. No need for optimization with an objective function (Less time consumption)
 2. The optimal configuration ensures controllability and is theoretically guaranteed
 
-### 2.2 Fault Tolerance (unit)
+### 2.2 ​Fault-Tolerant Control During Flight​
 We designed the Minimum Controllable Subassembly to enable the transfer of faulty units.
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/self_reconfiguration_flow.png?raw=true" alt="diagram" width="400"/>
@@ -64,9 +63,9 @@ We designed the Minimum Controllable Subassembly to enable the transfer of fault
 Advantages:
 The minimum controllable subassembly ensures the safety of faulty units
 
-### 2.3 Fault Tolerance Cooperative control (Path planning)
+### 2.3 Agile Trajectory Planning
 
-### 2.4 Examples
+### 2.4 Collision-free Trajectory Planning​
 
  (a) 3×2 assembly: full disassembly  |   (b) 3×2 assembly: partial disassembly 
 :---------------------------------------------------------------:|:--------------------------------------------------------------:
@@ -77,7 +76,9 @@ The minimum controllable subassembly ensures the safety of faulty units
 Advantages:
 Each step of disassembly and assembly is ensured to be theoretically optimal
 
-## 3 Comparison with the baseline method [[2]](#2)
+## 3 Comparison with the baseline method
+
+### 3.1 Self-Reconfiguration Fault-Tolerant Control ​ [[1]](#1)
 
  (a) 3×3 assembly: full disassembly (comparison) |   (b) 3×3 assembly: partial disassembly (comparison origin)
 :---------------------------------------------------------------:|:--------------------------------------------------------------:
@@ -90,15 +91,8 @@ Advantages:
 2. X
 3. X
 
+### 3.1 Collision-Free Trajectory Planning​  [[2]](#2)
 
-## 4 Self-reconfiguration
-<div align="center">
-  <img src="https://github.com/RuiHuangNUS/MARS-Reconfig/blob/main/Picture/3x2_full_track.gif?raw=true" alt="diagram" width="500"/>
-</div>
-
-Advantages:
-1. No oscillation during trajectory switching after self-reconfiguration
-2. Improved trajectory tracking after self-reconfiguration
 
 ## 5 How to Use
 First and foremost, the implementation for MARS-Reconfig is straightforward to setup. The source code has been comprehensively annotated to facilitate ease of use. To reproduce the simulation results presented in the paper, simply follow the steps outlined below, sequentially, after downloading and decompressing all the necessary folders.
@@ -143,9 +137,9 @@ If you encounter a bug in your implementation of the code, please do not hesitat
 }
 
 ## References
-<a id="1">[1]</a> J. Wang, T. Zhang, Q. Zhang, C. Zeng, J. Yu, C. Xu, L. Xu, and F. Gao, “Implicit swept volume sdf: Enabling continuous collision-free trajectory generation for arbitrary shapes,” ACM Transactions on Graphics (TOG), vol. 43, no. 4, pp. 1–14, 2024.
+<a id="1">[1]</a> N. Gandhi, D. Saldana, V. Kumar, and L. T. X. Phan, “Self-reconfiguration in response to faults in modular aerial systems,” IEEE Robotics and Automation Letters, vol. 5, no. 2, pp. 2522–2529, 2020.
 
-<a id="2">[2]</a> N. Gandhi, D. Saldana, V. Kumar, and L. T. X. Phan, “Self-reconfiguration in response to faults in modular aerial systems,” IEEE Robotics and Automation Letters, vol. 5, no. 2, pp. 2522–2529, 2020.
+<a id="2">[2]</a> J. Wang, T. Zhang, Q. Zhang, C. Zeng, J. Yu, C. Xu, L. Xu, and F. Gao, “Implicit swept volume sdf: Enabling continuous collision-free trajectory generation for arbitrary shapes,” ACM Transactions on Graphics (TOG), vol. 43, no. 4, pp. 1–14, 2024.
 
 <a id="3">[3]</a> Rui Huang, Siyu Tang, Zhiqian Cai, and Lin Zhao, “Robust Self-Reconfiguration for Fault-Tolerant Control of Modular Aerial Robot Systems,” IEEE International Conference on Robotics & Automation (ICRA), 2025. Available: https://github.com/RuiHuangNUS/MARS-Reconfig https://arxiv.org/abs/2503.09376
 
