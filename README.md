@@ -105,7 +105,9 @@ Fault in No.3 of 4×1 Assembly
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_4x1_4.gif?raw=true" alt="diagram", width="900"/>
 </div>
 Fault in No.4 of 4×1 Assembly
-
+<div align="center">
+  <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_3x2_2.gif?raw=true" alt="diagram", width="900"/>
+</div>
 Fault in No.2 of 3×2 Assembly
 
 
