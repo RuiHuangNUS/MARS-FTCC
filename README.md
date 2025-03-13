@@ -58,7 +58,7 @@ Advantages:
 3. Less yaw motion ​(enhancing safety)
 
 ## 2 Fault-tolerant control
-### 2.1 Fault-tolerant via Control Re-allocation​
+### 2.1 Fault-tolerant via Control Reallocation​
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/FT.gif?raw=true" alt="diagram", width="900"/>
 </div>
