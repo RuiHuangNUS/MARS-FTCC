@@ -104,9 +104,8 @@ First and foremost, the implementation for MARS-Reconfig is straightforward to s
 ### 5.1 Dependency Packages
 Please make sure that the following packages have already been installed before running the source code.
 * CoppeliaSim: version 4.6.0 Info: https://www.coppeliarobotics.com/
-* imageio: version 2.9.0 Info: https://imageio.readthedocs.io/
 
-### 5.2 Algorithm 1 Find Optimal Reconfiguration
+### 5.2 Algorithm 1 Find Optimal Reconfiguration (Coming soon)
 
 1. Open the Python file '**xxx.py**' in the folder '**Algorithm**'
 2. Before running, please do the following settings:
@@ -114,14 +113,14 @@ Please make sure that the following packages have already been installed before 
    * Set the Fault status of four rotors on line 229 (the default value is rotor_faults = [True, True, True, True]).
    * Set non-symmetric positions on line 231 (We provided examples of 3x2 and 3x3 assemblies for demonstration).
 
-### 5.3 Algorithm 3 Plan Disassembly and Assembly Sequence
+### 5.3 Algorithm 3 Plan Disassembly and Assembly Sequence (Coming soon)
 
 1. Open the Python file '**xxx.py**' in the folder '**Algorithm**'
 2. Before running, please do the following settings:
    * Set the configuration on line 14.
 
 ### 5.4 Simulation
-1. Simulation 1: Full disassembly in a 3×2 assembly, Open the file '**xxx.ttt**' in the folder '**Simulation**'
+1. Simulation 1: Full disassembly in a 3×1 assembly, Open the file '**3x1_full_disassembly_iros.ttt**' in the folder '**Simulation**'
 
 ## 6 Contact Us
 If you encounter a bug in your implementation of the code, please do not hesitate to inform me.
