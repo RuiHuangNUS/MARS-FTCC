@@ -10,7 +10,7 @@ Please find out more details in our paper: ["Robust Fault-Tolerant Control and A
 |                     A video  of this project             |
 :----------------------------------------------------------------------------------------------------------------------------------:
 [![NetFlix on UWP](https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/MARS_FTCC.png?raw=true)](https://youtu.be/H8Fmif7PbdM "NetFlix on UWP")
-Youtube: https://youtu.be/H8Fmif7PbdM Bilibili: xxx
+Youtube: https://youtu.be/H8Fmif7PbdM Bilibili: xxx (Coming soon)
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
