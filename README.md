@@ -23,7 +23,7 @@ Youtube: https://youtu.be/H8Fmif7PbdM Bilibili: xxx
    - [Collision-Free Trajectory Planning](#32-collision-free-trajectory-planning)
 5. [How to Use](#4-how-to-use)  
    - [Dependency Packages](#41-dependency-packages)  
-   - [Algorithm 1: Find Optimal Reconfiguration](#42-algorithm-1-dynamically-feasible-A*-algorithm-coming-soon)
+   - [Algorithm 1](#42-algorithm-1)
    - [Simulation](#43-simulation)
 6. [Contact Us](#5-contact-us)
 7. [Cite](#cite)
@@ -104,7 +104,8 @@ To reproduce the simulation results presented in the paper, simply follow the st
 Please make sure that the following packages have already been installed before running the source code.
 * CoppeliaSim: version 4.6.0 Info: https://www.coppeliarobotics.com/
 
-### 4.2 Algorithm 1 Dynamically Feasible A* Algorithm (Coming soon)
+### 4.2 Algorithm 1 (Coming soon)
+Dynamically Feasible A* Algorithm
 
 1. Open the Python file '**xxx.py**' in the folder '**Algorithm**'
 2. Before running, please do the following settings:
