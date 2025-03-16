@@ -99,7 +99,7 @@ Advantages:
 2. Reduced tracking errors
 
 ## 4 How to Use
-First and foremost, the implementation for MARS-Reconfig is straightforward to setup. The source code has been comprehensively annotated to facilitate ease of use. To reproduce the simulation results presented in the paper, simply follow the steps outlined below, sequentially, after downloading and decompressing all the necessary folders. All self-reconfiguration is based on our previous work [[3]](#3), and the control methods of different configurations are based on previous works [[4]](#4).
+To reproduce the simulation results presented in the paper, simply follow the steps outlined below, sequentially, after downloading and decompressing all the necessary folders. The self-reconfiguration is based on our previous work [[3]](#3), and the control methods of different configurations are based on previous works [[4]](#4).
 
 ### 4.1 Dependency Packages
 Please make sure that the following packages have already been installed before running the source code.
