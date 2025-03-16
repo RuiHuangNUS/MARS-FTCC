@@ -121,16 +121,18 @@ Please make sure that the following packages have already been installed before 
 
 ### 4.4 Simulation
 #### a.Fault-tolerant via Control Reallocation​
-1. Simulation 1: Full disassembly in a 3×1 assembly, Open the file '**3x1_full_disassembly_iros.ttt**' in the folder '**Simulation/FTC_Reallocation**'
+1. Simulation: 3×2 assembly (fault in No.2, No.3, No.2 and 4, No.2 and 5, No.3 and 4), Open the file '**3X2_Mod_independent_No.X.ttt**' in the folder '**Simulation/FTC_Reallocation**'
 
 #### b.Self-Reconfiguration Fault-Tolerant Control
+1. Simulation 1: Full disassembly in a 3×1 assembly, Open the file '**3x1_full_disassembly_iros.ttt**' in the folder '**Simulation**'
+
+#### c.Collision-Free Trajectory Planning
+
 1. Simulation 1: 4×1 assembly (fault in No.3), Open the file '**4X1_3_fault_path_planning_obs.ttt**' in the folder '**Simulation/trajectory_planning**'
 
 2. Simulation 1: Full disassembly in a 4×1 assembly (fault in No.4), Open the file '**4X1_4_fault_path_planning_obs.ttt**' in the folder '**Simulation/trajectory_planning**'
 
 3. Simulation 1: Full disassembly in a 3×2 assembly (fault in No.2), Open the file '**3X2_2_fault_path_planning_obs.ttt**' in the folder '**Simulation/trajectory_planning**'
-
-#### c.Collision-Free Trajectory Planning
 
 ## 5 Contact Us
 If you encounter a bug in your implementation of the code, please do not hesitate to inform me.
