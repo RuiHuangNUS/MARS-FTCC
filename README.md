@@ -76,7 +76,7 @@ Advantages:
 Advantages:
 1. No oscillation (control robustness): significantly reduces oscillations during docking and separation compared to previous work [[1]](#1).
 
-### 3.1 Collision-Free Trajectory Planning​  [[2]](#2)
+### 3.2 Collision-Free Trajectory Planning​  [[2]](#2)
 (a) Normal assembly (Dynamics Agnostic Planning  [[1]](#1)) |   (b) Normal assembly with Dynamics Aware Planning (Ours)  | (c) Post-failure assembly with fault-tolerance (Dynamics Agnostic Planning  [[1]](#1)) |   (d) Post-failure assembly with fault-tolerance (Ours Dynamics Aware Planning)
 :---------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:
 <div align="center">
@@ -98,14 +98,14 @@ Advantages:
 1. Enhanced stability (control robustness) and better guarantee of collision avoidance compared to  [[1]](#1).
 2. Reduced tracking errors
 
-## 5 How to Use (Coming soon)
+## 4 How to Use (Coming soon)
 First and foremost, the implementation for MARS-Reconfig is straightforward to setup. The source code has been comprehensively annotated to facilitate ease of use. To reproduce the simulation results presented in the paper, simply follow the steps outlined below, sequentially, after downloading and decompressing all the necessary folders. All self-reconfiguration is based on our previous work [[3]](#3), and the control methods of different configurations are based on previous works [[4]](#4).
 
-### 5.1 Dependency Packages
+### 4.1 Dependency Packages
 Please make sure that the following packages have already been installed before running the source code.
 * CoppeliaSim: version 4.6.0 Info: https://www.coppeliarobotics.com/
 
-### 5.2 Algorithm 1 Find Optimal Reconfiguration (Coming soon)
+### 4.2 Algorithm 1 Find Optimal Reconfiguration (Coming soon)
 
 1. Open the Python file '**xxx.py**' in the folder '**Algorithm**'
 2. Before running, please do the following settings:
@@ -113,16 +113,26 @@ Please make sure that the following packages have already been installed before 
    * Set the Fault status of four rotors on line 229 (the default value is rotor_faults = [True, True, True, True]).
    * Set non-symmetric positions on line 231 (We provided examples of 3x2 and 3x3 assemblies for demonstration).
 
-### 5.3 Algorithm 3 Plan Disassembly and Assembly Sequence (Coming soon)
+### 4.3 Algorithm 3 Plan Disassembly and Assembly Sequence (Coming soon)
 
 1. Open the Python file '**xxx.py**' in the folder '**Algorithm**'
 2. Before running, please do the following settings:
    * Set the configuration on line 14.
 
-### 5.4 Simulation
-1. Simulation 1: Full disassembly in a 3×1 assembly, Open the file '**3x1_full_disassembly_iros.ttt**' in the folder '**Simulation**'
+### 4.4 Simulation
+#### a.Fault-tolerant via Control Reallocation​
+1. Simulation 1: Full disassembly in a 3×1 assembly, Open the file '**3x1_full_disassembly_iros.ttt**' in the folder '**Simulation/FTC_Reallocation**'
 
-## 6 Contact Us
+#### b.Self-Reconfiguration Fault-Tolerant Control
+1. Simulation 1: 4×1 assembly (fault in No.3), Open the file '**4X1_3_fault_path_planning_obs.ttt**' in the folder '**Simulation/trajectory_planning**'
+
+2. Simulation 1: Full disassembly in a 4×1 assembly (fault in No.4), Open the file '**4X1_4_fault_path_planning_obs.ttt**' in the folder '**Simulation/trajectory_planning**'
+
+3. Simulation 1: Full disassembly in a 3×2 assembly (fault in No.2), Open the file '**3X2_2_fault_path_planning_obs.ttt**' in the folder '**Simulation/trajectory_planning**'
+
+#### c.Collision-Free Trajectory Planning
+
+## 5 Contact Us
 If you encounter a bug in your implementation of the code, please do not hesitate to inform me.
 * Name: Mr. Rui Huang
 * Email: ruihuang@u.nus.edu
