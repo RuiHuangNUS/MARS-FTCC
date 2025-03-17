@@ -107,11 +107,21 @@ Please make sure that the following packages have already been installed before 
 ### 4.2 Algorithm 1 (Coming soon)
 Dynamically Feasible A* Algorithm
 
-1. Open the Python file '**xxx.py**' in the folder '**Algorithm**'
-2. Before running, please do the following settings:
-   * Set x
-   * Set x
-   * Set x
+```sh
+cd XXX
+./build.sh
+source devel/setup.bash #(If use bash)
+source devel/setup.zsh  #(If use zsh) 
+roslaunch plan_manager xxxxx.launch 
+```
+
+```sh
+roslaunch plan_manager x.launch
+roslaunch plan_manager x.launch
+roslaunch plan_manager x.launch
+
+```
+
 
 ### 4.3 Simulation
 #### a.Fault-tolerant via Control Reallocation​
