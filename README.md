@@ -110,14 +110,8 @@ Please make sure that the following packages have already been installed before 
 cd Dynamical_Trajectory
 ./build.sh
 source devel/setup.bash
-roslaunch plan_manager xxxxx.launch 
+roslaunch plan_manager run_MARS3x2.launch 
 ```
-
-```sh
-roslaunch plan_manager x.launch
-roslaunch plan_manager x.launch
-```
-
 
 ### 4.3 Simulation
 #### a. Fault-tolerant via Control Reallocation​
