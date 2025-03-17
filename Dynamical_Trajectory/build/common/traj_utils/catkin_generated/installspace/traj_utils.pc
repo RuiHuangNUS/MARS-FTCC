@@ -1,0 +1,8 @@
+prefix=/home/hr/GitHub/MARS-FTCC/Dynamical_Trajectory/install
+
+Name: traj_utils
+Description: Description of traj_utils
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -ltraj_utils
+Requires: message_runtime
