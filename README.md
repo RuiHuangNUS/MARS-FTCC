@@ -118,8 +118,6 @@ roslaunch plan_manager xxxxx.launch
 ```sh
 roslaunch plan_manager x.launch
 roslaunch plan_manager x.launch
-roslaunch plan_manager x.launch
-
 ```
 
 
