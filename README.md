@@ -105,6 +105,13 @@ Please make sure that the following packages have already been installed before 
 * CoppeliaSim: version 4.6.0 Info: https://www.coppeliarobotics.com/
 
 ### 4.2 Dynamical trajectory
+```sh
+sudo apt-get install gcc g++ make gfortran cmake libomp-dev
+/usr/bin/python3 -m pip3 install pygame==2.0.0.dev12 
+/usr/bin/python3 -m pip3 install catkin_pkg
+/usr/bin/python3 -m pip3 uninstall em
+/usr/bin/python3 -m pip3 install empy==3.3.4
+```
 
 ```sh
 cd Dynamical_Trajectory
@@ -152,7 +159,7 @@ If you find this work helpful, please consider citing our paper.
 ## References
 <a id="1">[1]</a> N. Gandhi, D. Saldana, V. Kumar, and L. T. X. Phan, “Self-reconfiguration in response to faults in modular aerial systems,” IEEE Robotics and Automation Letters, vol. 5, no. 2, pp. 2522–2529, 2020.
 
-<a id="2">[2]</a> J. Wang, T. Zhang, Q. Zhang, C. Zeng, J. Yu, C. Xu, L. Xu, and F. Gao, “Implicit swept volume sdf: Enabling continuous collision-free trajectory generation for arbitrary shapes,” ACM Transactions on Graphics (TOG), vol. 43, no. 4, pp. 1–14, 2024.
+<a id="2">[2]</a> J. Wang, T. Zhang, Q. Zhang, C. Zeng, J. Yu, C. Xu, L. Xu, and F. Gao, “Implicit swept volume sdf: Enabling continuous collision-free trajectory generation for arbitrary shapes,” ACM Transactions on Graphics (TOG), vol. 43, no. 4, pp. 1–14, 2024. https://github.com/ZJU-FAST-Lab/Implicit-SVSDF-Planner
 
 <a id="3">[3]</a> Rui Huang, Siyu Tang, Zhiqian Cai, and Lin Zhao, “Robust Self-Reconfiguration for Fault-Tolerant Control of Modular Aerial Robot Systems,” IEEE International Conference on Robotics & Automation (ICRA), 2025. Available: https://github.com/RuiHuangNUS/MARS-Reconfig https://arxiv.org/pdf/2503.09376
 
