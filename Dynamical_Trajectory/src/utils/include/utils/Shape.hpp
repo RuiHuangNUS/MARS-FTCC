@@ -1293,6 +1293,17 @@ namespace shape
             ~sdRectangle45(){};
         };    
 
+
+    // zhang added
+    /*
+                    ···
+                  · ·
+                · ·
+              · ·
+            · ·
+          · ·
+        ···
+     */
     class MARS3x2 : public BasicShape
     {
         public:

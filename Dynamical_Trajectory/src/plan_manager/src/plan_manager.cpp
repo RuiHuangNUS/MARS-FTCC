@@ -224,7 +224,7 @@ void PlannerManager::generateTraj(vector<Vector3d> path)
     sv_manager->current_robot_shape->Transform(planner_manager->sv_manager->lastRotate, planner_manager->recent_traj.getPos(planner_manager->recent_traj.getTotalDuration()) + Eigen::Vector3d(0, 0, 5));
     sv_manager->vis->visPolytope(planner_manager->sv_manager->current_robot_shape->mesh_var, "Polymeshoriginal", "Polyedgeoriginal", false, 1, 3, vis::blue, 1.0); // 末端可视化
 
-    // zhang added for Rectangle45 90
+    // zhang added rotation for MARS3x2 
     double start_yaw = M_PI / 2;
     Eigen::Matrix3d start_Rotate = Eigen::AngleAxisd(start_yaw, Eigen::Vector3d::UnitZ()).toRotationMatrix();
     sv_manager->current_robot_shape->Transform(start_Rotate, planner_manager->recent_traj.getPos(0) + Eigen::Vector3d(0, 0, 5));

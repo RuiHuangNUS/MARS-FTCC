@@ -269,8 +269,7 @@ public:
 
                 gradC.block<6, 3>(segment * 6, 0) +=  obj.weightPR * gradViolaPc;
                 gradT(segment) += obj.weightPR * (cost_tmp_p  * gradViolaPt);
-                // Zhang added
-                // double cost_altitude = costaltitude2(quat);
+                
 
                 
                 cost += obj.weightPR * cost_tmp_p + obj.weightAR * cost_tmp_a ;

@@ -273,7 +273,7 @@ inline void AstarPathSearcher::AstarGetSucc(GridNode* currentPtr, vector<GridNod
                 // zhang added
                 // calculate yaw deviation
                 double yawerror = (grad - M_PI / 2) + yawtarget - cy;
-                // std::cout << "yawerror: " << yawerror * 57.63 << " grad: " << grad * 57.63 << " cy: "<< cy * 57.63 <<std::endl; 
+          
                 double yawpenalty = 1 * fabs(yawerror);
 
 
