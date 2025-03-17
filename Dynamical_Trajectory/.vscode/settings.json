@@ -1,26 +1,10 @@
 {
-    "python.autoComplete.extraPaths": [
-        "/home/hr/GitHub/MARS-docking-separation/nmpc_ws_3/devel/lib/python3/dist-packages",
-        "/home/hr/geometric_control_ws/devel/lib/python3/dist-packages",
-        "/home/hr/gazebo_link_attacher_ws/devel/lib/python3/dist-packages",
-        "/home/hr/catkin_ws/devel/lib/python3/dist-packages",
-        "/opt/ros/noetic/lib/python3/dist-packages",
-        "/home/hr/acados/interfaces/acados_template"
-    ],
-    "python.analysis.extraPaths": [
-        "/home/hr/GitHub/MARS-docking-separation/nmpc_ws_3/devel/lib/python3/dist-packages",
-        "/home/hr/geometric_control_ws/devel/lib/python3/dist-packages",
-        "/home/hr/gazebo_link_attacher_ws/devel/lib/python3/dist-packages",
-        "/home/hr/catkin_ws/devel/lib/python3/dist-packages",
-        "/opt/ros/noetic/lib/python3/dist-packages",
-        "/home/hr/acados/interfaces/acados_template"
-    ],
     "cmake.ignoreCMakeListsMissing": true,
     "files.associations": {
-        "cmath": "cpp",
-        "complex": "cpp",
+        "vector": "cpp",
         "cctype": "cpp",
         "clocale": "cpp",
+        "cmath": "cpp",
         "csignal": "cpp",
         "cstdarg": "cpp",
         "cstddef": "cpp",
@@ -43,6 +27,7 @@
         "chrono": "cpp",
         "codecvt": "cpp",
         "compare": "cpp",
+        "complex": "cpp",
         "concepts": "cpp",
         "condition_variable": "cpp",
         "cstdint": "cpp",
@@ -53,7 +38,6 @@
         "set": "cpp",
         "unordered_map": "cpp",
         "unordered_set": "cpp",
-        "vector": "cpp",
         "exception": "cpp",
         "algorithm": "cpp",
         "functional": "cpp",
@@ -93,8 +77,22 @@
         "typeindex": "cpp",
         "typeinfo": "cpp",
         "valarray": "cpp",
-        "variant": "cpp",
-        "core": "cpp",
-        "numericaldiff": "cpp"
-    }
+        "variant": "cpp"
+    },
+    "python.autoComplete.extraPaths": [
+        "/home/hr/GitHub/MARS-docking-separation/nmpc_ws_3/devel/lib/python3/dist-packages",
+        "/home/hr/geometric_control_ws/devel/lib/python3/dist-packages",
+        "/home/hr/gazebo_link_attacher_ws/devel/lib/python3/dist-packages",
+        "/home/hr/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/hr/acados/interfaces/acados_template"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/hr/GitHub/MARS-docking-separation/nmpc_ws_3/devel/lib/python3/dist-packages",
+        "/home/hr/geometric_control_ws/devel/lib/python3/dist-packages",
+        "/home/hr/gazebo_link_attacher_ws/devel/lib/python3/dist-packages",
+        "/home/hr/catkin_ws/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages",
+        "/home/hr/acados/interfaces/acados_template"
+    ]
 }
