@@ -1,0 +1,52 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/hr/GitHub/MARS-docking-separation/nmpc_ws_3/devel/include/**",
+        "/home/hr/geometric_control_ws/devel/include/**",
+        "/home/hr/gazebo_link_attacher_ws/devel/include/**",
+        "/home/hr/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/hr/geometric_control_ws/src/mavros_controllers/controller_msgs/include/**",
+        "/home/hr/catkin_ws/src/eigen_checks/include/**",
+        "/home/hr/catkin_ws/src/gazebo_ros_pkgs/gazebo_plugins/include/**",
+        "/home/hr/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros/include/**",
+        "/home/hr/catkin_ws/src/gazebo_ros_pkgs/gazebo_ros_control/include/**",
+        "/home/hr/gazebo_link_attacher_ws/src/gazebo_ros_link_attacher/include/**",
+        "/home/hr/geometric_control_ws/src/mavros_controllers/geometric_controller/include/**",
+        "/home/hr/catkin_ws/src/mav_comm/mav_msgs/include/**",
+        "/home/hr/catkin_ws/src/mav_comm/mav_planning_msgs/include/**",
+        "/home/hr/catkin_ws/src/mav_trajectory_generation/mav_trajectory_generation/include/**",
+        "/home/hr/catkin_ws/src/mav_trajectory_generation/mav_trajectory_generation_example/include/**",
+        "/home/hr/catkin_ws/src/mav_trajectory_generation/mav_trajectory_generation_ros/include/**",
+        "/home/hr/catkin_ws/src/mav_trajectory_generation/mav_visualization/include/**",
+        "/home/hr/PX4_Firmware/Tools/sitl_gazebo/include/**",
+        "/home/hr/catkin_ws/src/src_mpc_actuator/src/my_mpc/include/**",
+        "/home/hr/catkin_ws/src/nlopt/include/**",
+        "/home/hr/catkin_ws/src/nmpc_controller/include/**",
+        "/home/hr/GitHub/MARS-docking-separation/nmpc_ws_3/src/nmpc/tools/odom_visualization/include/**",
+        "/home/hr/GitHub/MARS-docking-separation/nmpc_ws_3/src/nmpc/tools/pose_utils/include/**",
+        "/home/hr/catkin_ws/src/src_mpc_actuator/src/rpg_quadrotor_common/quadrotor_common/include/**",
+        "/home/hr/GitHub/MARS-docking-separation/nmpc_ws_3/src/nmpc/tools/quadrotor_msgs/include/**",
+        "/home/hr/GitHub/MARS-docking-separation/nmpc_ws_3/src/nmpc/quadrotor_nmpc/include/**",
+        "/home/hr/catkin_ws/src/rotors_simulator/rotors_control/include/**",
+        "/home/hr/catkin_ws/src/rotors_simulator/rotors_gazebo_plugins/include/**",
+        "/home/hr/catkin_ws/src/rotors_simulator/rotors_hil_interface/include/**",
+        "/home/hr/catkin_ws/src/rotors_simulator/rotors_joy_interface/include/**",
+        "/home/hr/catkin_ws/src/src_mpc_actuator/src/rpg_quadrotor_common/state_predictor/include/**",
+        "/home/hr/geometric_control_ws/src/mavros_controllers/trajectory_publisher/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,8 @@
+prefix=/home/hr/GitHub/MARS-FTCC/Dynamical_Trajectory/install
+
+Name: debug_assistant
+Description: Description of debug_assistant
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs
