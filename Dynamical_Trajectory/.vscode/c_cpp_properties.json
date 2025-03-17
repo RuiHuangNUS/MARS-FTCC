@@ -8,8 +8,8 @@
       "includePath": [
         "/home/hr/GitHub/MARS-docking-separation/nmpc_ws_3/devel/include/**",
         "/home/hr/geometric_control_ws/devel/include/**",
-        "/home/hr/gazebo_link_attacher_ws/devel/include/**",
         "/home/hr/catkin_ws/devel/include/**",
+        "/home/hr/gazebo_link_attacher_ws/devel/include/**",
         "/opt/ros/noetic/include/**",
         "/home/hr/geometric_control_ws/src/mavros_controllers/controller_msgs/include/**",
         "/home/hr/catkin_ws/src/eigen_checks/include/**",

@@ -1,2 +1,0 @@
-common/quadrotor_msgs:common/rviz_plugins:common/traj_utils:common/uav_utils:debug_assistant:map_manager:plan_manager:planner_algorithm:swept_volume:uav_simulator/fake_drone:uav_simulator/local_sensing:uav_simulator/mockamap:uav_simulator/so3_control:uav_simulator/so3_quadrotor_simulator:utils
--DPYTHON_EXECUTABLE=/usr/bin/python3 -DCATKIN_DEVEL_PREFIX=/home/hr/GitHub/MARS-FTCC/Dynamical_Trajectory/devel -DCMAKE_INSTALL_PREFIX=/home/hr/GitHub/MARS-FTCC/Dynamical_Trajectory/install -G Unix Makefiles
