@@ -104,22 +104,14 @@ To reproduce the simulation results presented in the paper, simply follow the st
 Please make sure that the following packages have already been installed before running the source code.
 * CoppeliaSim: version 4.6.0 Info: https://www.coppeliarobotics.com/
 
-### 4.2 Algorithm 1 (Coming soon)
-Dynamically Feasible A* Algorithm
+### 4.2 Dynamical trajectory
 
 ```sh
-cd XXX
+cd Dynamical_Trajectory
 ./build.sh
-source devel/setup.bash #(If use bash)
-source devel/setup.zsh  #(If use zsh) 
-roslaunch plan_manager xxxxx.launch 
+source devel/setup.bash
+roslaunch plan_manager run_MARS3x2.launch 
 ```
-
-```sh
-roslaunch plan_manager x.launch
-roslaunch plan_manager x.launch
-```
-
 
 ### 4.3 Simulation
 #### a. Fault-tolerant via Control Reallocation​
