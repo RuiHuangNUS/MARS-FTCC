@@ -122,13 +122,13 @@ roslaunch plan_manager x.launch
 
 
 ### 4.3 Simulation
-#### a.Fault-tolerant via Control Reallocation​
+#### a. Fault-tolerant via Control Reallocation​
 1. Simulation: 3×2 assembly (faults in No.2, No.3, No.2 and 4, No.2 and 5, No.3 and 4), Open the file '**3X2_Mod_independent_No.X.ttt**' in the folder '**Simulation/FTC_Reallocation**'
 
-#### b.Self-Reconfiguration Fault-Tolerant Control
+#### b. Self-Reconfiguration Fault-Tolerant Control
 1. Simulation 1: Full disassembly in a 3×1 assembly, Open the file '**3x1_full_disassembly_iros.ttt**' in the folder '**Simulation**'
 
-#### c.Collision-Free Trajectory Planning
+#### c. Collision-Free Trajectory Planning
 Remember to modify the reference path before use, the corresponding data can be found in the folder '**Simulation/trajectory_planning/x_trajectory_data**'
 
 1. Simulation 1: 4×1 assembly (fault in No.3), Open the file '**4X1_3_fault_path_planning_obs.ttt**' in the folder '**Simulation/trajectory_planning**'
