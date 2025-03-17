@@ -131,6 +131,7 @@ roslaunch plan_manager x.launch
 1. Simulation 1: Full disassembly in a 3×1 assembly, Open the file '**3x1_full_disassembly_iros.ttt**' in the folder '**Simulation**'
 
 #### c.Collision-Free Trajectory Planning
+Remember to modify the reference path before use, the corresponding data can be found in the folder '**Simulation/trajectory_planning/x_trajectory_data**'
 
 1. Simulation 1: 4×1 assembly (fault in No.3), Open the file '**4X1_3_fault_path_planning_obs.ttt**' in the folder '**Simulation/trajectory_planning**'
 
