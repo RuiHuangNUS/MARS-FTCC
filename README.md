@@ -7,6 +7,8 @@ The project **MARS-FTCC** consists of two folders, which correspond to the **Alg
 
 Please find out more details in our paper: ["Robust Fault-Tolerant Control and Agile Trajectory Planning for Modular Aerial Robotic Systems"](https://arxiv.org/pdf/2503.09351)
 
+https://github.com/user-attachments/assets/bbe9014f-e520-40f7-a5ef-0b87a7e760fb
+
 |                     A video  of this project             |
 :----------------------------------------------------------------------------------------------------------------------------------:
 [![NetFlix on UWP](https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/MARS_FTCC.png?raw=true)](https://youtu.be/H8Fmif7PbdM "NetFlix on UWP")
