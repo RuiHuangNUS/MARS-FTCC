@@ -16,7 +16,7 @@ https://github.com/user-attachments/assets/bbe9014f-e520-40f7-a5ef-0b87a7e760fb
 |                     A video  of this project             |
 :----------------------------------------------------------------------------------------------------------------------------------:
 [![NetFlix on UWP](https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/MARS_FTCC.png?raw=true)](https://youtu.be/H8Fmif7PbdM "NetFlix on UWP")
-Youtube: https://youtu.be/H8Fmif7PbdM Bilibili: xxx (Coming soon)
+Youtube: https://youtu.be/H8Fmif7PbdM Bilibili: https://www.bilibili.com/video/BV1vQuhzHEXj https://www.bilibili.com/video/BV1Vx3BzgEKM
 
 ## Table of Contents
 1. [Project Overview](#project-overview)
