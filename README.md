@@ -86,17 +86,17 @@ Advantages:
 :---------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:|:--------------------------------------------------------------:
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_4x1_3.gif?raw=true" alt="diagram", width="900"/>
-  Fault in No.3 of 4×1 Assembly (4X)
+  Fault in No.3 of 4×1 Assembly (x4)
 </div>
 
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_4x1_4.gif?raw=true" alt="diagram", width="900"/>
-  Fault in No.4 of 4×1 Assembly (4X)
+  Fault in No.4 of 4×1 Assembly (x4)
 </div>
 
 <div align="center">
   <img src="https://github.com/RuiHuangNUS/MARS-FTCC/blob/main/Picture/collision_free_3x2_2.gif?raw=true" alt="diagram", width="900"/>
-  Fault in No.2 of 3×2 Assembly (4X)
+  Fault in No.2 of 3×2 Assembly (x4)
 </div>
 
 Advantages:
